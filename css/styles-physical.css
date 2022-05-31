@@ -33,6 +33,12 @@
   --gray10: #616161;
 }
 
+html{
+scroll-behavior: smooth;
+
+
+}
+
 body {
   color: var(--gray30);
   font-family: 'Roboto', sans-serif;
@@ -47,9 +53,14 @@ a {
 header {
   /* --gray10:red; */
   font-size: 14px;
+  width: 188px;
   color: var(--gray10);
-position: relative;
-border: 1px solid red;
+position: absolute;
+top: 64px;
+left: -232px;
+/* border: 1px solid red; */
+/* background: red; */
+z-index: 1;
   }
 
 header a {
@@ -63,6 +74,13 @@ header a:hover {
 
 nav details summary {
   font-weight: bold;
+  line-height: 24px;
+}
+
+header li{
+margin-bottom: 16px;
+
+
 }
 
 h1 {
@@ -71,6 +89,7 @@ h1 {
   /* font-size: 3.75em; */
   margin-top: 64px;
   margin-bottom: 16px;
+  font-weight: normal;
   /* border: 10px solid red; */
   /* width: 400%; */
   /* height: 400%; */
@@ -132,6 +151,17 @@ content: '-';
 
 }
 
+.header{
+position: sticky;
+top: 0;
+
+}
+
+.header-content{
+  position: relative;
+
+}
+
 .main {
   /* background: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url('../images/pattern.png'); */
 
@@ -145,7 +175,7 @@ padding: 20px;
 }
 
 .main-content{
-  padding: 20px;
+/* padding: 20px; */
 background: white;
 
 }
@@ -171,6 +201,7 @@ background: red;
 .section-content{
 
   margin-top: 164px;
+  position: relative;
 }
 
 .section-content:first-of-type{
