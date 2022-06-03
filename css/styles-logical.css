@@ -111,8 +111,8 @@ h3{
 hr{
 margin-block: 40px;
 border-color: rgba(97, 97, 97, 0.2);
-
 }
+
 pre {
 background:var(--white10);
 padding: 40px;
@@ -130,7 +130,7 @@ box-shadow: -10px 10px 0 0 #ABAAF6;
 border-radius: 50%;
 inline-size: 40px;
 block-size: 400px; */
-/* border-start-start-radius:60px; */
+/* border-start-start-radius:60px; */ */
 }
 
 p{
@@ -266,8 +266,8 @@ display: block;
 margin-block-end: 24px;
 }
 
-.form input [type="submit"] {
-background: #157EFB;
+.form input [type="submit"]{
+background-color:  #157EFB;
 border: none;
 }
 
