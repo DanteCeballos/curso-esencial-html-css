@@ -266,7 +266,7 @@ display: block;
 margin-block-end: 24px;
 }
 
-.form input [type="submit"]{
+.form input [type="submit"] {
 background-color:  #157EFB;
 border: none;
 }
